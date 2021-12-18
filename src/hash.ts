@@ -1,3 +1,4 @@
+// credit valdeci - https://stackoverflow.com/a/33486055/4004879
 export const MD5 = function (d) {
   var r = M(V(Y(X(d), 8 * d.length)));
   return r.toLowerCase();

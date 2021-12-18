@@ -1,0 +1,20 @@
+{
+  "remote": {
+    "baseUrl": "https://jsonplaceholder.typicode.com"
+  },
+  "secure": true,
+  "port": 9000,
+  "skipList": [],
+  "mockDir": "mocks",
+  "methods": [
+    "POST",
+    "GET",
+    "PUT",
+    "DELETE"
+  ],
+  "contentType": [
+    "application/json",
+    "application/x-www-form-urlencoded"
+  ],
+  "blackList": []
+}
